@@ -1,0 +1,285 @@
+.button.signup-button {
+    font-weight: 500;
+    height: 44px;
+    width: 120px
+}
+
+.button.secondary-btn {
+    outline: none;
+    border-color: #f39200;
+    background-color: #f39200;
+    color: #fff;
+    transition: all .5s
+}
+
+.button.secondary-btn:hover {
+    color: #fff
+}
+
+.button.secondary-btn.raised:hover {
+    box-shadow: 0 14px 26px -12px #f392006b, 0 4px 23px #0000001f, 0 8px 10px -5px #f3920033 !important;
+    opacity: .8
+}
+.hero-foot img.partner-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100px
+}
+
+
+.feature-card.is-pricing {
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    box-shadow: -1px 3px 15px #0000000f;
+    margin: 8px;
+    padding: 20px;
+    height: 420px
+}
+
+.feature-card.is-pricing .plan-name {
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #444f60
+}
+
+.feature-card.is-pricing img {
+    display: block;
+    max-width: 160px;
+    margin: 0 auto
+}
+
+.feature-card.is-pricing .price {
+    position: relative;
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #444f60
+}
+
+.feature-card.is-pricing .price:before {
+    content: "$";
+    position: relative;
+    top: -12px;
+    left: 0;
+    font-size: 1.2rem
+}
+
+.feature-card.is-pricing .price:after {
+    content: "per month";
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    font-size: .9rem;
+    font-weight: 400;
+    color: #999
+}
+
+.feature-card.is-pricing p {
+    padding: 24px 0 16px;
+    color: #999
+}
+
+.feature-card.is-pricing .button {
+    min-height: 46px
+}
+
+.feature-cards {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+.feature-card {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 0 auto;
+    padding: 2.5rem
+}
+
+
+.feature-card .card-title h4 {
+    font-family: Nunito, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #444f60
+}
+
+.feature-card .card-icon img {
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin: 30px auto
+}
+
+.feature-card .card-text {
+    max-width: 210px;
+    margin: 0 auto
+}
+
+.feature-card .card-text p {
+    color: #999
+}
+
+.feature-card .card-action {
+    margin-top: 1rem
+}
+
+.feature-card .card-action .button {
+    min-height: 44px;
+    min-width: 140px
+}
+
+
+.feature-card.is-bordered {
+    border: 1px solid #ededed;
+    padding: 40px;
+    
+}
+.pricing-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.pricing-wrap .feature-card {
+    margin: 12px auto !important;
+    width: 400px;
+}
+.sidebar .sidebar-header .iconify {
+    stroke: #fff;
+    color: #fff;
+    transform: rotate(0);
+    transition: all .3s;
+    cursor: pointer;
+}
+.sidebar .sidebar-header .iconify {
+    font-size: 1.5rem
+}
+.sidebar .sidebar-header .iconify:hover {
+    stroke: #f39200;
+    color: #f39200;
+    transform: rotate(180deg);
+}
+.feature-icon {
+    padding: 16px 0;
+    cursor: pointer
+}
+.feature-icon:hover .icon-wrap {
+    transform: translateY(-5px);
+    box-shadow: -1px 3px 15px #0000000f
+}
+
+.feature-icon:hover .icon-wrap .iconify {
+    color: #f39200
+}
+
+.feature-icon .icon-wrap {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px;
+    transition: all .3s
+}
+
+.feature-icon .icon-wrap .iconify {
+    font-size: 2rem;
+    color: #6a7b96;
+    transition: all .3s
+}
+
+.feature-icon h4 {
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 600;
+    color: #444f60
+}
+
+.feature-icon p {
+    color: #999
+}
+
+.testimonial img {
+    max-width: 100%;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: block;
+    z-index: 1
+}
+
+.testimonial blockquote {
+    margin-top: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #444f60;
+    display: block
+}
+
+.testimonial blockquote:before {
+    font-family: Material Icons;
+    content: "";
+    position: absolute;
+    font-size: 30px;
+    opacity: .3;
+    font-style: normal
+}
+
+.testimonial blockquote:before {
+    top: 16px;
+    left: 16px
+}
+
+.testimonial .author {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    text-align: left;
+    margin-top: 1.5rem;
+    z-index: 0
+}
+
+.testimonial .author>div {
+    line-height: 1.2
+}
+
+.testimonial .author h5 {
+    text-transform: capitalize;
+    bottom: 60%;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #444f60
+}
+
+.testimonial .author span {
+    display: block;
+    font-size: .8em;
+    color: #70819a;
+    top: 50%
+}
+.testimonial {
+    position: relative;
+    overflow: hidden;
+    margin: 10px auto;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    background-color: #fcfcfc;
+    padding: 2rem;
+    border-radius: .65rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6em;
+    box-shadow: 0 0 5px #00000026
+}
